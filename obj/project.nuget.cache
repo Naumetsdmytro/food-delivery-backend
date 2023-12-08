@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e6GV6DI27EWvDNzkva+4SEQq44Xv/wwKRY/CnKVDyAIAHa0ZmawuOpluTtkl5Pth/Ocoa8KDQPtRrbl7MLXFsg==",
+  "dgSpecHash": "Ke+dwatIwEnYyO6piXD39dk6Dg8OGQkeF+Te9V8ppRNAvBqhGIrKOIMWs0HwFG68wtSJCbSoSuLcmh+/0V0nkg==",
   "success": true,
-  "projectFilePath": "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj",
+  "projectFilePath": "/Users/dimanaumets/Documents/GitHub/food-delivery-backend/mongodb-dotnet-example.csproj",
   "expectedPackageFiles": [
     "/Users/dimanaumets/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/dimanaumets/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",

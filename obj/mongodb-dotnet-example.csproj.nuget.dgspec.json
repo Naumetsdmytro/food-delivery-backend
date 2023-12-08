@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj": {}
+    "/Users/dimanaumets/Documents/GitHub/food-delivery-backend/mongodb-dotnet-example.csproj": {}
   },
   "projects": {
-    "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj": {
+    "/Users/dimanaumets/Documents/GitHub/food-delivery-backend/mongodb-dotnet-example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj",
+        "projectUniqueName": "/Users/dimanaumets/Documents/GitHub/food-delivery-backend/mongodb-dotnet-example.csproj",
         "projectName": "mongodb-dotnet-example",
-        "projectPath": "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj",
+        "projectPath": "/Users/dimanaumets/Documents/GitHub/food-delivery-backend/mongodb-dotnet-example.csproj",
         "packagesPath": "/Users/dimanaumets/.nuget/packages/",
-        "outputPath": "/Users/dimanaumets/Documents/GitHub/food-delivery backend/obj/",
+        "outputPath": "/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimanaumets/.nuget/NuGet/NuGet.Config"

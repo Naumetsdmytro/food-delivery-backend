@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mongodb-dotnet-example")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ef72bb039760d2f4f3181c8adfc9e19e7ff805c")]
 [assembly: System.Reflection.AssemblyProductAttribute("mongodb-dotnet-example")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mongodb-dotnet-example")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -43,3 +43,14 @@
 /Users/dimanaumets/Documents/GitHub/food-delivery backend/obj/Debug/net8.0/mongodb-dotnet-example.pdb
 /Users/dimanaumets/Documents/GitHub/food-delivery backend/obj/Debug/net8.0/mongodb-dotnet-example.genruntimeconfig.cache
 /Users/dimanaumets/Documents/GitHub/food-delivery backend/obj/Debug/net8.0/ref/mongodb-dotnet-example.dll
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.csproj.AssemblyReference.cache
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.AssemblyInfoInputs.cache
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.AssemblyInfo.cs
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.csproj.CoreCompileInputs.cache
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.MvcApplicationPartsAssemblyInfo.cs
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.MvcApplicationPartsAssemblyInfo.cache
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.sourcelink.json
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.dll
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/refint/mongodb-dotnet-example.dll
+/Users/dimanaumets/Documents/GitHub/food-delivery-backend/obj/Debug/net8.0/mongodb-dotnet-example.pdb
