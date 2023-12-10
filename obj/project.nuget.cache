@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ke+dwatIwEnYyO6piXD39dk6Dg8OGQkeF+Te9V8ppRNAvBqhGIrKOIMWs0HwFG68wtSJCbSoSuLcmh+/0V0nkg==",
+  "dgSpecHash": "CWvE81nMDeiSSnP6WfU45SSLPwqAUlYcCB9eQhtgKpoOSxTr0Ck36tdeoxJKUVKG7iLmFmh9pJ5k+v7n7dQbxw==",
   "success": true,
   "projectFilePath": "/Users/dimanaumets/Documents/GitHub/food-delivery-backend/mongodb-dotnet-example.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,13 @@
     "/Users/dimanaumets/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/Users/dimanaumets/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/dimanaumets/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/dimanaumets/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/dimanaumets/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/dimanaumets/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/dimanaumets/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/dimanaumets/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "/Users/dimanaumets/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/dimanaumets/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/Users/dimanaumets/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/Users/dimanaumets/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/dimanaumets/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
