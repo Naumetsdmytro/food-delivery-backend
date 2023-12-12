@@ -34,17 +34,26 @@ public void ConfigureServices(IServiceCollection services)
     var connectionString = mongoDBSettings["ConnectionString"];
     var databaseName = mongoDBSettings["DatabaseName"];
 
-    // Register settings and services for Users
     services.AddSingleton<IUsersDatabaseSettings>(sp =>
         new UsersDatabaseSettings { ConnectionString = connectionString, DatabaseName = databaseName });
-    services.AddSingleton<UsersService>();
 
-    // Register settings and services for Products
-    services.AddSingleton<IProductsDatabaseSettings>(sp =>
-        new ProductsDatabaseSettings { ConnectionString = connectionString, DatabaseName = databaseName });
-    services.AddSingleton<ProductsService>();
+    // Register UsersService for dependency injection
+    services.AddSingleton<UsersService>(sp =>
+        new UsersService(connectionString, databaseName));
 
-    // Register Swagger Generator
+    services.AddSingleton<IProductDatabaseSettings>(sp =>
+        new ProductDatabaseSettings { ConnectionString = connectionString, DatabaseName = databaseName });
+
+    services.AddSingleton<ProductService>(sp =>
+        new ProductService(connectionString, databaseName));
+
+
+      services.AddSingleton<IOrdersDatabaseSettings>(sp =>
+        new OrdersDatabaseSettings { ConnectionString = connectionString, DatabaseName = databaseName });
+
+    services.AddSingleton<OrdersService>(sp =>
+        new OrdersService(connectionString, databaseName));
+    
     services.AddSwaggerGen(c =>
     {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "mongodb_dotnet_example", Version = "v1" });

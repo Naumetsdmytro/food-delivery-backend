@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace mongodb_dotnet_example.Models
 {
-    public class Product
+    public class Orders
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -11,12 +11,6 @@ namespace mongodb_dotnet_example.Models
 
         [BsonElement("Title")]
         public string Title { get; set; }
-
-        [BsonElement("Description")]
-        public string Description { get; set; }
-
-        [BsonElement("Imageurl")]
-        public string Imageurl { get; set; }
 
         [BsonElement("Price")]
         public string Price { get; set; }

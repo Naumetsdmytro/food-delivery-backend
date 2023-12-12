@@ -1,5 +1,5 @@
-using mongodb_dotnet_example.Models;
-using mongodb_dotnet_example.Services;
+using ProductModel = mongodb_dotnet_example.Models.Product;
+using ProductService = mongodb_dotnet_example.Services.ProductService;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -7,34 +7,37 @@ namespace mongodb_dotnet_example.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductsController : ControllerBase
+    public class ProductController : ControllerBase
     {
-    private readonly ProductsService _productService;
+        private readonly ProductService _productService;
 
-    public ProductsController(ProductsService productService)
-    {
-        _productService = productService;
-    }
-
-        [HttpGet]
-        public ActionResult<List<Product>> Get() =>
-            _productService.Get();
-
-        [HttpGet("{id:length(24)}", Name = "GetProduct")]
-        public ActionResult<Product> Get(string id)
+        public ProductController(ProductService productService)
         {
-            var product = _productService.Get(id);
-
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return product;
+            _productService = productService;
         }
 
+        [HttpGet]
+        public ActionResult<List<ProductModel>> Get()
+        {
+            var products = _productService.Get();
+            return Ok(products); // Return a 200 OK response with the list of products
+        }
+
+        [HttpGet("{id:length(24)}", Name = "GetProduct")]
+public ActionResult<ProductModel> Get(string id)
+{
+    var product = _productService.Get(id);
+
+    if (product == null)
+    {
+        return NotFound();
+    }
+
+    return Ok(product); // Ensure that an ActionResult is returned
+}
+
         [HttpPost]
-        public ActionResult<Product> Create(Product product)
+        public ActionResult<ProductModel> Create(ProductModel product)
         {
             _productService.Create(product);
 
@@ -42,7 +45,7 @@ namespace mongodb_dotnet_example.Controllers
         }
 
         [HttpPut("{id:length(24)}")]
-        public IActionResult Update(string id, Product productIn)
+        public IActionResult Update(string id, ProductModel productIn)
         {
             var product = _productService.Get(id);
 
@@ -66,7 +69,7 @@ namespace mongodb_dotnet_example.Controllers
                 return NotFound();
             }
 
-            _productService.Delete(product.Id);
+            _productService.Delete(id);
 
             return NoContent();
         }
