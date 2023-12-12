@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj": {}
+    "C:\\Users\\vital\\food-delivery-backend\\mongodb-dotnet-example.csproj": {}
   },
   "projects": {
-    "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj": {
+    "C:\\Users\\vital\\food-delivery-backend\\mongodb-dotnet-example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj",
+        "projectUniqueName": "C:\\Users\\vital\\food-delivery-backend\\mongodb-dotnet-example.csproj",
         "projectName": "mongodb-dotnet-example",
-        "projectPath": "/Users/dimanaumets/Documents/GitHub/food-delivery backend/mongodb-dotnet-example.csproj",
-        "packagesPath": "/Users/dimanaumets/.nuget/packages/",
-        "outputPath": "/Users/dimanaumets/Documents/GitHub/food-delivery backend/obj/",
+        "projectPath": "C:\\Users\\vital\\food-delivery-backend\\mongodb-dotnet-example.csproj",
+        "packagesPath": "C:\\Users\\vital\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vital\\food-delivery-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dimanaumets/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
